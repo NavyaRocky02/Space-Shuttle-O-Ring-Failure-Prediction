@@ -34,6 +34,12 @@ The project uses Python and Scikit-learn to train a Machine Learning model and F
 ```text
 Space_Shuttle_O_Ring_Prediction/
 │
+├── Screenshots/
+│   ├── space_shuttle_homepage.png
+│   ├── space_shuttle_dashboard.png
+│   ├── space_shuttle_prediction_form.png
+│   └── space_shuttle_prediction_result.png
+│
 ├── static/
 │   └── style.css
 │
@@ -72,6 +78,32 @@ The Logistic Regression algorithm is used to classify flight records into two ca
 - 1 – O-Ring Distress
 
 The trained model is saved as `space_shuttle_model.pkl` and loaded by the Flask application to make predictions.
+
+## Project Screenshots
+
+### 1. Home Page
+
+The home page introduces the Space Shuttle O-Ring Failure Prediction application.
+
+![Space Shuttle Homepage](Screenshots/space_shuttle_homepage.png)
+
+### 2. Project Dashboard
+
+The dashboard displays project statistics, including total flights, distress cases, no-distress cases, and average temperature.
+
+![Space Shuttle Dashboard](Screenshots/space_shuttle_dashboard.png)
+
+### 3. Prediction Form
+
+Users can enter flight details such as the number of O-Rings, temperature, pressure, and flight number.
+
+![O-Ring Prediction Form](Screenshots/space_shuttle_prediction_form.png)
+
+### 4. Prediction Result
+
+The application displays the predicted O-Ring distress result along with the estimated distress probability.
+
+![O-Ring Prediction Result](Screenshots/space_shuttle_prediction_result.png)
 
 ## Installation and Setup
 
@@ -133,6 +165,6 @@ This project is developed for educational and academic purposes. The dataset is 
 
 **Navya Sree Challa**
 
-GitHub: https://github.com/NavyaRocky02
+**GitHub:** https://github.com/NavyaRocky02
 
-Project Repository: https://github.com/NavyaRocky02/Space-Shuttle-O-Ring-Failure-Prediction
+**Project Repository:** https://github.com/NavyaRocky02/Space-Shuttle-O-Ring-Failure-Prediction
